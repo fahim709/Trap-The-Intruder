@@ -171,6 +171,7 @@ This project combines algorithm design, graph theory, network security concepts 
 
 ---
 
+**Name:** Fahim Hasan
 **Project:** Trap the Intruder  
 **Course:** CSE 208 – Algorithm Lab  
 **Language:** C  
