@@ -94,13 +94,13 @@
 
         <div class="card">
           <div class="card-title">Attacker</div>
-          <div class="kv"><span>Status:</span><span class="badge-warn">Calculating Route...</span></div>
-          <div class="kv"><span>Path:</span><strong>—</strong></div>
+          <div class="kv"><span>Status:</span><span class="badge-warn" id="attackerStatus">Ready</span></div>
+          <div class="kv"><span>Path:</span><strong id="attackerPath">—</strong></div>
         </div>
 
         <div class="card">
           <div class="card-title">Event Log</div>
-          <ul class="log-list">
+          <ul class="log-list" id="eventLog">
             <li><span class="log-time">[00:00]</span>Game started!</li>
             <li><span class="log-time">[00:00]</span>Network initialized.</li>
             <li><span class="log-time">[00:01]</span>Click "Calculate Route" to see attacker's path.</li>
@@ -117,10 +117,11 @@
         <strong>Ford-Fulkerson</strong> to analyze critical links.
       </div>
       <div class="cta-group">
-        <button class="btn btn-primary">Calculate Route</button>
+        <button class="btn btn-primary" id="findPath">Calculate Route</button>
         <button class="btn">Run Analysis</button>
       </div>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
