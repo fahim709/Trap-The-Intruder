@@ -171,11 +171,11 @@ The main objective is to understand and demonstrate graph algorithms through a p
 This project combines algorithm design, graph theory, network security concepts and interactive visualization.
 ## Game Interface
 
-![Game Interface]<img width="1779" height="943" alt="Interface" src="https://github.com/user-attachments/assets/96939d0f-dba8-485f-a3a8-6e7a7ad899de" />
+<img width="1779" height="943" alt="Interface" src="https://github.com/user-attachments/assets/96939d0f-dba8-485f-a3a8-6e7a7ad899de" />
 ---
 
 
-**Name:** Fahim Hasan
+**Name:** Fahim Hasan  
 **Project:** Trap the Intruder  
 **Course:** CSE 208 – Algorithm Lab  
 **Language:** C  
