@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trap the Intruder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>TRAP THE INTRUDER</h1>
+        <p>Network Security Strategy Game</p>
+    </header>
+
+    <main>
+
+        <section class="network">
+            <h2>NETWORK TOPOLOGY</h2>
+
+            <canvas id="gameCanvas"
+                    width="800"
+                    height="520">
+            </canvas>
+
+            <button id="findPath">
+                Calculate Attack Route
+            </button>
+        </section>
+
+        <aside>
+
+            <section class="panel">
+                <h2>DEFENDER</h2>
+                <p>Available Traps: 3</p>
+                <p>Defense Budget: 100</p>
+            </section>
+
+            <section class="panel">
+                <h2>ATTACKER</h2>
+                <p id="attackerStatus">Waiting...</p>
+                <p id="attackerPath">No route selected</p>
+            </section>
+
+            <section class="panel">
+                <h2>EVENT LOG</h2>
+                <p id="eventLog">Network initialized.</p>
+            </section>
+
+        </aside>
+
+    </main>
+
+    <script type="module" src="game.js"></script>
+
+</body>
+</html>
